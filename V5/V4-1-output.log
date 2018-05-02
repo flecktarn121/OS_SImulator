@@ -1,0 +1,74 @@
+46 Messages Loaded
+Asserts file unavailable
+User program list:
+	Program [programV4-1] with arrival time [0]
+	Program [programV4-2] with arrival time [5]
+	Program [programV4-3] with arrival time [44]
+	[0] Ready-to-run process queue: 
+	[0] 	USER: 
+ 	[0] 	DAEMONS: 
+ 	[0] PID association with program's name:
+	[0] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[programV4-1, 0, USER]
+		[programV4-2, 5, USER]
+		[programV4-3, 44, USER]
+	[0] New process [0] moving to the [NEW]
+	[0] Process [0] created from program [SystemIdleProcess]
+	[0] Process [0] moving from the [NEW] state to the [READY] state
+	[0] Ready-to-run process queue: 
+	[0] 	USER: 
+ 	[0] 	DAEMONS: [0,100]
+ 	[0] PID association with program's name:
+		PID: 0 -> SystemIdleProcess
+	[0] Arrival Time Queue:
+		[programV4-3, 44, USER]
+		[programV4-1, 0, USER]
+		[programV4-2, 5, USER]
+	[0] Process [0] moving from the [READY] state to the [EXECUTING] state
+[1] y 0 0 (PID: 0, PC: 0, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[2] a 1301 417 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[3] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[4] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[5] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[6] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[7] Clock interrupt number [1] has ocurred
+[8] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[9] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[10] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[11] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[12] Clock interrupt number [2] has ocurred
+[13] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[14] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[15] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[16] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[17] Clock interrupt number [3] has ocurred
+[18] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[19] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[20] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[21] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[22] Clock interrupt number [4] has ocurred
+[23] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[24] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[25] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[26] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[27] Clock interrupt number [5] has ocurred
+[28] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[29] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[30] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[31] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[32] Clock interrupt number [6] has ocurred
+[33] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[34] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[35] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[36] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[37] Clock interrupt number [7] has ocurred
+[38] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[39] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[40] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[41] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------])
+	[42] Clock interrupt number [8] has ocurred
+[43] y 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[44] j -1 0 (PID: 0, PC: 1, Accumulator: 1718, PSW: 128 [--------X-------])
+[45] n 0 0 (PID: 0, PC: 2, Accumulator: 1718, PSW: 128 [--------X-------])
+[46] o 9 0 (PC: 245, Accumulator: 1718, PSW: 32896 [M-------X-------]

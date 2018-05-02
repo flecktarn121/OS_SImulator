@@ -1,0 +1,12 @@
+UNIT 6
+
+1) A new register will be added, in order to store exception types. The reason for this is for further information to show when an exception
+is raised. This means that a new line must be added in the RaiseException() function in the processor.
+Logical addresses are stored in the MAR register, and the limit register contains the process size.
+
+2) In the exception handling funtion now new messages must appear, which will be chosen depending on the value of the new register.
+
+3) Try to run a program with a NOP instruction. 
+
+4) The simulator must be capable of detecting invalid system calls. Now, invalid system calls will mean the calling process to be killed, plus
+the printing of a new message.

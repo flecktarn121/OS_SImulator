@@ -1,0 +1,95 @@
+41 Messages Loaded
+Asserts file unavailable
+User program list:
+	Program [programV3-1] with arrival time [0]
+	Program [programV3-1] with arrival time [50]
+	[0] Ready-to-run process queue: 
+	[0] 	USER: 
+ 	[0] 	DAEMONS: 
+ 	[0] PID association with program's name:
+	[0] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[programV3-1, 0, USER]
+		[programV3-1, 50, USER]
+	[0] New process [0] moving to the [NEW]
+	[0] Process [0] created from program [SystemIdleProcess]
+	[0] Process [0] moving from the [NEW] state to the [READY] state
+	[0] New process [1] moving to the [NEW]
+	[0] Process [1] created from program [programV3-1]
+	[0] Process [1] moving from the [NEW] state to the [READY] state
+	[0] New process [2] moving to the [NEW]
+	[0] Process [2] created from program [programV3-1]
+	[0] Process [2] moving from the [NEW] state to the [READY] state
+	[0] Ready-to-run process queue: 
+	[0] 	USER: [1,5][2,5]
+ 	[0] 	DAEMONS: [0,100]
+ 	[0] PID association with program's name:
+		PID: 0 -> SystemIdleProcess
+		PID: 1 -> programV3-1
+		PID: 2 -> programV3-1
+	[0] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[programV3-1, 0, USER]
+		[programV3-1, 50, USER]
+	[0] Process [1] moving from the [READY] state to the [EXECUTING] state
+[1] y 0 0 (PID: 1, PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[2] n 0 0 (PID: 1, PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[3] a 10 -13 (PID: 1, PC: 2, Accumulator: -3, PSW: 4 [-------------N--])
+[4] w 15 0 (PID: 1, PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[5] y 0 0 (PID: 1, PC: 0, Accumulator: -3, PSW: 4 [-------------N--])
+[6] o 6 0 (PC: 243, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[7] Process [1] has generated an exception and is terminating
+	[7] Process [1] moving from the [EXECUTING] state to the [EXIT] state
+	[7] Process [2] moving from the [READY] state to the [EXECUTING] state
+	[7] Ready-to-run process queue: 
+	[7] 	USER: 
+ 	[7] 	DAEMONS: [0,100]
+ 	[7] PID association with program's name:
+		PID: 0 -> SystemIdleProcess
+		PID: 1 -> programV3-1
+		PID: 2 -> programV3-1
+	[7] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[programV3-1, 0, USER]
+		[programV3-1, 50, USER]
+[8] y 0 0 (PID: 2, PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[9] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[10] Clock interrupt number [1] has ocurred
+[11] y 0 0 (PID: 2, PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[12] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[13] Clock interrupt number [2] has ocurred
+[14] y 0 0 (PID: 2, PC: 0, Accumulator: 0, PSW: 2 [--------------Z-])
+[15] n 0 0 (PID: 2, PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[16] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[17] Clock interrupt number [3] has ocurred
+[18] y 0 0 (PID: 2, PC: 1, Accumulator: 0, PSW: 2 [--------------Z-])
+[19] a 10 -13 (PID: 2, PC: 2, Accumulator: -3, PSW: 4 [-------------N--])
+[20] w 15 0 (PID: 2, PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[21] o 9 0 (PC: 245, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[22] Clock interrupt number [4] has ocurred
+[23] y 0 0 (PID: 2, PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[24] y 0 0 (PID: 2, PC: 3, Accumulator: -3, PSW: 4 [-------------N--])
+[25] o 6 0 (PC: 243, Accumulator: -3, PSW: 32900 [M-------X----N--])
+	[26] Process [2] has generated an exception and is terminating
+	[26] Process [2] moving from the [EXECUTING] state to the [EXIT] state
+	[26] Process [0] moving from the [READY] state to the [EXECUTING] state
+	[26] Ready-to-run process queue: 
+	[26] 	USER: 
+ 	[26] 	DAEMONS: 
+ 	[26] PID association with program's name:
+		PID: 0 -> SystemIdleProcess
+		PID: 1 -> programV3-1
+		PID: 2 -> programV3-1
+	[26] Arrival Time Queue:
+		[SystemIdleProcess, 0, DAEMON]
+		[programV3-1, 0, USER]
+		[programV3-1, 50, USER]
+[27] y 0 0 (PID: 0, PC: 3, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[28] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[29] Clock interrupt number [5] has ocurred
+[30] y 0 0 (PID: 0, PC: 3, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[31] o 9 0 (PC: 245, Accumulator: 0, PSW: 32898 [M-------X-----Z-])
+	[32] Clock interrupt number [6] has ocurred
+[33] y 0 0 (PID: 0, PC: 3, Accumulator: 0, PSW: 130 [--------X-----Z-])
+[34] h 0 0 (PID: 0, PC: 3, Accumulator: 0, PSW: 131 [--------X-----ZS])
+END of the simulation

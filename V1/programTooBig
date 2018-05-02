@@ -1,0 +1,7 @@
+
+65
+2
+ADD 100 6
+WRITE 7
+NOP
+TRAP 3

@@ -1,0 +1,18 @@
+// Students created messages
+// Format: numberOfMessage,textPrintfFormatedWithColourCodes
+//
+// numbers of messages greather than 100 for students
+//
+101,User program list:\n
+102,\tProgram [@B%s@@] with arrival time [@B%d@@]\n
+103,@RERROR: There are not free entries in the process table for the program [%s]\n@@
+104,@RERROR: Program [%s] is not valid [%s]\n@@
+105,@RERROR: Program [%s] is too big\n@@
+106,Ready-to-run process queue: \n
+107,[@G%d@@,%d]
+108,\n 
+110,Process [@G%d@@] moving from the [@G%s@@] state to the [@G%s@@] state\n
+111,New process [@G%d@@] moving to the [@G%s@@]\n
+112,\tUSER: 
+113,\tDAEMONS: 
+1100,PETA AQUI REDIOS

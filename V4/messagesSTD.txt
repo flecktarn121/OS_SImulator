@@ -1,0 +1,26 @@
+// Students created messages
+// Format: numberOfMessage,textPrintfFormatedWithColourCodes
+//
+// numbers of messages greather than 100 for students
+//
+101,User program list:\n
+102,\tProgram [@B%s@@] with arrival time [@B%d@@]\n
+103,@RERROR: There are not free entries in the process table for the program [%s]\n@@
+104,@RERROR: Program [%s] is not valid [%s]\n@@
+105,@RERROR: Program [%s] is too big\n@@
+106,Ready-to-run process queue: \n
+107,[@G%d@@,%d]
+108,\n 
+110,Process [@G%d@@] moving from the [@G%s@@] state to the [@G%s@@] state\n
+111,New process [@G%d@@] moving to the [@G%s@@]\n
+112,\tUSER: 
+113,\tDAEMONS: 
+120,@CClock interrupt number [%d] has ocurred@@\n
+121,Process [@G%d@@] is thrown out of the processor by process [@G&d@@]\n
+130, (PID: @G%d@@, PC: @R%d@@, Accumulator: @R%d@@, PSW: @R%d@@ [@R%s@@])\n
+140,Process [@R%d@@]->[@R%s@@] has caused an exception (@R%s@@) and is being terminated\n
+141,Process [@R%d@@]->[@R%s@@] has made an invalid system call (@R%d@@) and is being terminated\n
+142,Process [@G%d@@]->[@G%s@@] requests [@G%d@@] memory positions\n
+143,Partition [@G%d@@: @G%d@@-> @G%d@@] has been assigned to process [@G%d@@]->[@G%s@@]\n
+144,@RERROR:  a  process  could  notbe  created  from  program [%s] because an appropriate partition is not available@@\n
+145,Partition [@G%d@@: @G%d@@-> @G%d@@] used by process [@G%d@@]->[@G%s@@] has been released\n

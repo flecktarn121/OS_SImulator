@@ -1,0 +1,8 @@
+11
+YRET // Initial Operation for OS
+// Here interrupt vector
+OS 2 // SysCall Interrupt
+YRET
+OS 6 // Exception Interrupt
+YRET
+

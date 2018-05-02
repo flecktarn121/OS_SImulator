@@ -1,0 +1,32 @@
+# 1 "MyAspect.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 1 "<command-line>" 2
+# 1 "MyAspect.c"
+# 1 "Clock.h" 1
+
+
+
+
+void Clock_Update();
+int Clock_GetTime();
+# 2 "MyAspect.c" 2
+# 1 "Asserts.h" 1
+# 37 "Asserts.h"
+ int Asserts_LoadAsserts();
+ void Asserts_CheckAsserts();
+# 3 "MyAspect.c" 2
+
+
+before(): execution(void Processor_FetchInstruction()) {
+ Clock_Update();
+}
+
+after(): execution(void Processor_DecodeAndExecuteInstruction()){
+    Asserts_CheckAsserts();
+}
+
+before(): execution(void OperatingSystem_InterruptLogic(int)){
+ Clock_Update();
+}

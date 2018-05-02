@@ -1,0 +1,14 @@
+37 Messages Loaded
+Asserts file unavailable
+User program list:
+	Program [programV2-1a] with arrival time [0]
+	Program [programV2-1b] with arrival time [0]
+New process [0] moving to the [NEW]
+Process [0] created from program [SystemIdleProcess]
+Process [0] moving from the [NEW] state to the [READY] state
+Ready-to-run process queue: 
+	USER: 
+ 	DAEMONS: [0,100]
+ 	[0] ERROR: Program [programV2-1a] is not valid [---it does not exist---]
+	[0] ERROR: Program [programV2-1b] is not valid [---it does not exist---]
+END of the simulation

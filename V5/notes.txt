@@ -1,0 +1,10 @@
+UNIT 7
+
+There would be 2 different reasons for processes to be in the blocked state.
+One of the exercises would ask to allow processes to ask the OS to perform an IO operation.
+The OS should do all the operations necessary to speak ith the device. Once that task is                                                                               
+started, any other requests will be queued while the device is busy.
+Processes waiting for the IO dvice will be sent o the blocked state.
+The end of the IO operation will be signalled by means of an interrupt. A new kind of in-
+terrupt should be specified.  At that moment, the next proces will be unblocked.
+The IO operation should be recognized by means of the PID of the process.
